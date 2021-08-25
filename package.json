@@ -1,0 +1,27 @@
+{
+  "name": "video_chat_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yushkevich-A-A/video_chat_server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yushkevich-A-A/video_chat_server/issues"
+  },
+  "homepage": "https://github.com/Yushkevich-A-A/video_chat_server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "socket.io": "^4.1.3",
+    "uuid": "^8.3.2"
+  }
+}
